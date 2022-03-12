@@ -3,7 +3,7 @@ const router = express.Router()
 const {addDataModule,getModule,deleteModule} = require('../modules/module')
 
 router.get('/', (req, res) => {
-   res.send("Welcome to home page");
+   res.send("Welcome to Home page ❤️❤️ ❤️ ");
  })
 
 router.post('/add',addDataModule)
