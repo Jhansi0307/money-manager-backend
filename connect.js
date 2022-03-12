@@ -5,7 +5,7 @@ module.exports = {
    async connect(){
       try{
          var con = await MongoClient.connect("mongodb+srv://root:root@cluster0.xvho7.mongodb.net/?retryWrites=true&w=majority")
-         this.db = con.db("money-manager");
+         this.db = con.db("income");
          console.log("-----------MongoDB Connected-------");
       }
       catch(err){
